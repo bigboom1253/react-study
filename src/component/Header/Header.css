@@ -1,0 +1,41 @@
+#header-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.dark#header-layout {
+    background-color: #1a1c35;
+    border-bottom: 1px solid #1a1c35;
+}
+
+.header-title {
+    width: 60%;
+    padding: 0px 15px;
+}
+
+.dark .header-title {
+    color: white;
+}
+
+.theme-change-btn {
+    border: none;
+    padding: 5px 10px;
+}
+
+.dark .theme-change-btn {
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: #1a1c35;
+}
+
+.filter-radio-btn {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 10px;
+
+}
